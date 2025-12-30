@@ -112,7 +112,7 @@
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
                     <h3>Email</h3>
-                    <p><a href="mailto:israelmutombo9319@gmail.com" style="color:green;">israelmutombo9319@gmail.com</a></p>
+                    <p><a href="mailto:imdigitallabs@gmail.com" style="color:green;">imdigitallabs@gmail.com</a></p>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@
             <p>
               <strong>Contact direct :</strong><br>
               <a href="https://wa.me/243991683269" target="_blank" style="color: #25D366; margin-right: 15px;">WhatsApp: +243 991 683 269</a><br>
-              <a href="mailto:israelmutombo9319@gmail.com" style="color: green;">Email: israelmutombo9319@gmail.com</a>
+              <a href="mailto:imdigitallabs@gmail.com" style="color: green;">Email: imdigitallabs@gmail.com</a>
             </p>
             <p>Nous espérons que ce site continuera à célébrer la vie et l'héritage de Henock, tout en permettant à ses proches de se souvenir de lui avec tendresse.</p>
             <p>Merci pour votre visite.</p>

@@ -11,6 +11,7 @@
           <li v-if="$route.path === '/'"><a href="#services" @click="scrollToSection">Services</a></li>
           <li v-if="$route.path === '/'"><a href="#portfolio" @click="scrollToSection">Galerry</a></li>
           <li v-if="$route.path === '/'"><a href="#contact" @click="scrollToSection">Contact</a></li>
+          <li><router-link to="/carte" :class="{ active: $route.path === '/carte' }" @click="handleNavClick">Carte</router-link></li>
           <li v-if="$route.path === '/temoignage'"><router-link to="/">Galerry</router-link></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list" @click="toggleMobileNav"></i>

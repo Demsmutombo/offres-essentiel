@@ -8,7 +8,7 @@
       <div class="credits text-center">
         <p>Conçu par <strong style="color: #d4af37;">IM DIGITAL LABS</strong> | 
           <a href="https://wa.me/243991683269" target="_blank" style="color: #25D366; text-decoration: none;">+243 991 683 269</a> | 
-          <a href="mailto:israelmutombo9319@gmail.com" style="color: inherit; text-decoration: none;">israelmutombo9319@gmail.com</a>
+          <a href="mailto:imdigitallabs@gmail.com" style="color: inherit; text-decoration: none;">imdigitallabs@gmail.com</a>
         </p>
       </div>
     </div>

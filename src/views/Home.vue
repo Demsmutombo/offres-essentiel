@@ -121,16 +121,6 @@
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-5">
-              <div class="col-lg-6" v-if="contactTelephone">
-                <div class="info-item d-flex align-items-center">
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>Téléphone</h3>
-                    <p><a :href="`tel:${contactTelephone.replace(/[^0-9+]/g, '')}`" style="color:green;">{{ contactTelephone }}</a></p>
-                  </div>
-                </div>
-              </div>
-
               <div class="col-lg-6" v-if="contactWhatsApp">
                 <div class="info-item d-flex align-items-center">
                   <i class="bi bi-whatsapp flex-shrink-0"></i>
@@ -239,8 +229,7 @@ export default {
       
       // Contact
       contactNom: '',
-      contactTelephone: '+243 991 683 269',
-      contactEmail: 'israelmutombo9319@gmail.com',
+      contactEmail: 'imdigitallabs@gmail.com',
       contactWhatsApp: '+243 991 683 269'
     }
   },
