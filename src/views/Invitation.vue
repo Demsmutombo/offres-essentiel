@@ -1,10 +1,9 @@
 <template>
-  <div class="index-page">
+  <div class="index-page carte-page">
     <Header />
     
-    <main class="main">
-      <!-- Carte Section -->
-      <section id="carte" class="invitation-section">
+    <!-- Carte Section -->
+    <section id="carte" class="invitation-section">
         <div class="invitation-container">
           <!-- Cloud Background -->
           <div class="cloud-background"></div>
@@ -84,10 +83,9 @@
             </div>
           </div>
         </div>
-      </section>
-      
-      <Footer />
-    </main>
+    </section>
+    
+    <Footer />
   </div>
 </template>
 
@@ -178,25 +176,28 @@ export default {
 
 <style scoped>
 .invitation-section {
-  min-height: 100vh;
+  min-height: calc(100vh - 160px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+  padding: 15px;
   background: linear-gradient(to bottom, #e8f4f8 0%, #f5f5f5 100%);
+  position: relative;
+}
+
+.carte-page {
   position: relative;
 }
 
 .invitation-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   background: #ffffff;
   border-radius: 8px;
-  padding: 60px 40px;
+  padding: 30px 30px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
 }
 
 .cloud-background {
@@ -233,9 +234,9 @@ export default {
 .invitation-top-text {
   font-family: 'Playfair Display', 'Georgia', serif;
   font-style: normal;
-  font-size: 28px;
+  font-size: 26px;
   color: #1a1a1a;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -269,9 +270,9 @@ export default {
 }
 
 .portrait-container {
-  margin: 30px auto 40px;
-  width: 220px;
-  height: 220px;
+  margin: 15px auto 20px;
+  width: 180px;
+  height: 180px;
   position: relative;
   z-index: 2;
 }
@@ -288,10 +289,10 @@ export default {
 
 .deceased-name {
   font-family: 'Playfair Display', 'Georgia', serif;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
   color: #1a1a1a;
-  margin: 20px 0 15px;
+  margin: 12px 0 8px;
   letter-spacing: 2px;
   font-style: italic;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
@@ -299,20 +300,20 @@ export default {
 
 .dates {
   font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   color: #666;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   letter-spacing: 1px;
   font-weight: 400;
 }
 
 .invitation-message {
   font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   color: #333;
-  line-height: 1.8;
-  margin: 30px auto 20px;
-  max-width: 600px;
+  line-height: 1.5;
+  margin: 15px auto 12px;
+  max-width: 580px;
   letter-spacing: 0.5px;
   font-weight: 300;
   font-style: italic;
@@ -320,11 +321,11 @@ export default {
 
 .invitation-message-second {
   font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #555;
-  line-height: 1.8;
-  margin: 0 auto 40px;
-  max-width: 600px;
+  line-height: 1.5;
+  margin: 0 auto 18px;
+  max-width: 580px;
   letter-spacing: 0.5px;
   font-weight: 300;
 }
@@ -340,7 +341,7 @@ export default {
 }
 
 .venue-info {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .venue-name {
@@ -363,9 +364,13 @@ export default {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .invitation-section {
+    padding: 40px 15px;
+  }
+  
   .invitation-container {
     padding: 40px 20px;
-    margin: 20px;
+    margin: 0;
   }
   
   .invitation-top-text {
